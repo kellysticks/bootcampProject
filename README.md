@@ -1,36 +1,49 @@
-# Kelly Stickell - General Assembly - Final Project
+# Skincare Generator - General Assembly - Final Project
 
-Completed a class assignment to develop my own Javascript version of the card game "War".
-- Completeness Score: 4/5 (Although this is more complete than my other version, I figure there are still some things I missed)
-- Comfortableness Score: 4/5 (Having to spend so much time on this helped me to learn the concepts more)
-
+*Welcome to the Skincare Generator! You are one click away from curating your ultimate skincare cabinet. 
+*
+I created this app as a fun and easy way to randomly generate industry awarded skincare products. This app pulls skincare products from Sephora using an API and conveniently adds them to the viewing user’s “cabinet” so that they can see the products that will become a part of their everyday routine.
 ## Quick Start
 
-- Steps to Run Script: 
-In your console, type in node script.js and hit enter
+######Steps to Generate Products: 
+1. Select the ‘Generate Products!’ button 
+2. View the randomly generated product displayed
+3. If the product is of interest for you, select ‘Add to Cabinet’
+4. If the product isn’t of interest to you select ‘Generate Products!” for a new product to display
+5. Repeat this process until you have built your ultimate skincare routine
 
-- A message for each "round" of the game showing: 1) who won the round, 2) the cards played by each
-    player, and 3) how many cards each player now has will be returned.
-- A final "winning player" message will display once the game is over (i.e., one player has 0 cards or not enough cards to play)
-- An error message will display if anything goes wrong
+######Steps to Empty a Cabinet:
+1. If your cabinet doesn’t seem to align with your skincare goals, select ‘Empty Cabinet’ to remove all of the products currently added to it.
 
-If script does not run, please notify kelly.stickell@gmail.com
+######Steps to View More Details about Products:
+1. If you like the product you have generated but are interested in viewing more details about it, select the ‘View Product Details’ button. This will open a new tab where you can view additional details about the product provided by the Sephora website.
 
-### Status
+## Status
 
-Inactive: This project has been completed and is not currently being updated.
+Active: This project is one of the first ones in my portfolio and I’m planning to continue building it out.
+Upcoming Features:
+1.	Display loading modal while generated product image is updating
+2.	Additional styling to enhance look/feel of webpage
+3.	Ability to remove one item from cabinet vs the entire cabinet
+4.	Ability to calculate total cost of cabinet 
+5.	Incorporation of additional APIs from other beauty retailers (Amazon, Ulta, L’Oreal)
+6.	Ability to input a skincare concern as a parameter and have products generate based on the concern
 
-## Bugs and Feature Requests
+## Screenshot
+As of: 2/6/2023
 
-No bugs or feature requests requested yet.
+bootcampProject\SkincareGenScreenshot.pngs
 
+## Dev Tools
+######Front End
+•	HTML
+•	Custom CSS
+•	Bootstrap
+•	Javascript 
 ## Creators
-
 Kelly Stickell (kelly.stickell@gmail.com)
 
 ## Copyright and License
-
 (DRAFT) Code released under the MIT License.
 
 Enjoy 🤘
-

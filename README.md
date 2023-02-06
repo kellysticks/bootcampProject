@@ -5,17 +5,17 @@
 I created this app as a fun and easy way to randomly generate industry awarded skincare products. This app pulls skincare products from Sephora using an API and conveniently adds them to the viewing user’s “cabinet” so that they can see the products that will become a part of their everyday routine.
 ## Quick Start
 
-######Steps to Generate Products: 
+###### Steps to Generate Products: 
 1. Select the ‘Generate Products!’ button 
 2. View the randomly generated product displayed
 3. If the product is of interest for you, select ‘Add to Cabinet’
 4. If the product isn’t of interest to you select ‘Generate Products!” for a new product to display
 5. Repeat this process until you have built your ultimate skincare routine
 
-######Steps to Empty a Cabinet:
+###### Steps to Empty a Cabinet:
 1. If your cabinet doesn’t seem to align with your skincare goals, select ‘Empty Cabinet’ to remove all of the products currently added to it.
 
-######Steps to View More Details about Products:
+###### Steps to View More Details about Products:
 1. If you like the product you have generated but are interested in viewing more details about it, select the ‘View Product Details’ button. This will open a new tab where you can view additional details about the product provided by the Sephora website.
 
 ## Status
@@ -32,10 +32,10 @@ Upcoming Features:
 ## Screenshot
 As of: 2/6/2023
 
-![Skincare Generator Webapp](/relative/path/to/SkincareGenScreenshot?raw=true "Optional Title")
+![Skincare Generator Webapp](/SkincareGenScreenshot?raw=true "Optional Title")
 
 ## Dev Tools
-######Front End
+###### Front End
 •	HTML
 •	Custom CSS
 •	Bootstrap

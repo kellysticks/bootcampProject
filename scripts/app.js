@@ -38,7 +38,6 @@ fetch(
   })
   .then((jsonResp) => {
     let data = jsonResp.products;
-    // console.log(data);
     createProducts(data);
     toggleLoader()
   })
@@ -56,7 +55,6 @@ function createProducts(product) {
       `https://www.sephora.com/${element.targetUrl}`
     );
     allProducts.push(newProduct);
-    // console.log(allProducts);
   });
 }
 
@@ -74,12 +72,6 @@ function toggleImgLoader(){
 }
 
 function generateRandomProduct() {
-  // console.log('current product 1', currentProduct)
-  // console.log('previous product 1', previousProduct)
-  // if(currentProduct){
-  //   previousProduct = currentProduct
-  //   console.log('previous product in IF', previousProduct)
-  // }
   
   let prodContainer = document.getElementsByClassName("product-container")[0];
   rProd = Math.floor(Math.random() * allProducts.length);
@@ -90,6 +82,7 @@ function generateRandomProduct() {
     document.getElementsByClassName('image')[0].src = currentProduct.img
     document.getElementsByClassName('brand')[0].innerText = currentProduct.brand;
     document.getElementsByClassName('name')[0].innerText = currentProduct.productName;
+    document.getElementsByTagName('a')[0].href = currentProduct.url
     document.getElementsByClassName('rating')[0].innerText = currentProduct.rating;
   }
   if(prodContainer.childElementCount === 0 ){
@@ -131,8 +124,6 @@ function generateRandomProduct() {
 }
 
 function addCabinetProduct(){
-  // console.log('current product', currentProduct)
-  // console.log('previous product 2', previousProduct)
   if(currentProduct === tempProduct){
     window.alert(
       `You've already added this product. Add a different product to build your ultimate skincare cabinet!`
@@ -188,8 +179,5 @@ document.querySelectorAll("body").forEach((item) => {
     }
   });
   item.addEventListener("keyup", (event) => {
-    if (event.key === "Enter") {
-      //toggleSearch();
-    }
   });
 });

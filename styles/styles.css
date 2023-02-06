@@ -1,11 +1,62 @@
-*{
-    
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: small;
+}
+
+.background-color{
+  background-color: #EEE2DF;
+}
+
+.button-color{
+  background-color: #B36A5E !important;
+  border-color: #B36A5E !important;
+}
+
+
+.loader{
+  opacity: 0.95;
+  background:  #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.spinner {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #444444;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+  visibility: visible;
+  z-index: 2;
+}
+
+/* Citing: https://www.geeksforgeeks.org/how-to-show-page-loading-div-until-the-page-has-finished-loading/ */
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 .image {
-max-width: 100%;
-border-radius: 50px;
-height: 200px;
-width: 200px;
-margin: 10px;
+  max-width: 100%;
+  border-radius: 25%;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
 }

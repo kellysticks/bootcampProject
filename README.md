@@ -32,7 +32,7 @@ Upcoming Features:
 ## Screenshot
 As of: 2/6/2023
 
-/SkincareGenScreenshot.png
+![Skincare Generator Webapp](/relative/path/to/SkincareGenScreenshot?raw=true "Optional Title")
 
 ## Dev Tools
 ######Front End

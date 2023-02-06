@@ -32,7 +32,7 @@ Upcoming Features:
 ## Screenshot
 As of: 2/6/2023
 
-bootcampProject\SkincareGenScreenshot.pngs
+bootcampProject\SkincareGenScreenshot.png
 
 ## Dev Tools
 ######Front End
